@@ -1,16 +1,25 @@
 <html>
 	<TITLE> Елисеева Валерия </TITLE>
 	<script type="text/javascript" charset="UTF-8" language = "javascript">
-		function name(){
-			delete imya;
-			let imya = prompt("Введите сюда своё имя","Введите имя", '');
-    			document.writeln(imya);
-		}
+	function name(){
+		delete imya;
+		let imya = prompt("Введите сюда своё имя","Введите имя", '');
+    		document.writeln(imya);
+	}
+	function Text(){
+        	if (confirm("Начать заново?")){
+        		alert("Не надоело?");
+        	}
+        	else{
+            		alert("Ну и правильно!");
+        	}
+    	}
 	</script>
     	<body>
         	<p>Ваше имя?</p>
         	<script>
 		name();
+		Text();
 		</script>
    	</body>
 </html>
